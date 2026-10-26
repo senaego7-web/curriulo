@@ -1,0 +1,113 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0f172a;
+    color: #f8fafc;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curriculo-card {
+    background-color: #1e293b;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    width: 380px;
+    border: 1px solid #334155;
+}
+
+.foto-perfil {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid #3b82f6;
+    box-shadow: 0 4px 10px rgba(59, 130, 246, 0.3);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.cargo {
+    font-size: 14px;
+    color: #94a3b8;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.sobre {
+    background-color: #0f172a;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.sobre h3 {
+    font-size: 14px;
+    color: #3b82f6;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.sobre p {
+    font-size: 13px;
+    color: #cbd5e1;
+    line-height: 1.5;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+#editar {
+    background-color: #3b82f6;
+    color: white;
+}
+
+#editar:hover {
+    background-color: #2563eb;
+    transform: translateY(-2px);
+}
+
+#sair {
+    background-color: #ef4444;
+    color: white;
+}
+
+#sair:hover {
+    background-color: #dc2626;
+    transform: translateY(-2px);
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 200px; 
+}
